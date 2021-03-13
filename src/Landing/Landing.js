@@ -4,6 +4,9 @@ import Slider from '../Slider/Slider'
 import "./Landing.css"
 
 
+
+
+
 export class Landing extends Component {
     constructor(props) {
         super(props)
@@ -22,6 +25,13 @@ export class Landing extends Component {
                 { name: "Sneeker", price: "1500.00", color: "black", image: "https://ae01.alicdn.com/kf/Hdadd755f08aa4a1585117d744cfb67c2O.jpg" },
                 { name: "Sneeker", price: "1500.00", color: "black", image: "https://ae01.alicdn.com/kf/H705c9c301c74478faf464f5ccceb1a30Z.jpg?width=800&height=800&hash=1600" },
                 { name: "Sneeker", price: "1500.00", color: "black", image: "https://ae01.alicdn.com/kf/H705c9c301c74478faf464f5ccceb1a30Z.jpg?width=800&height=800&hash=1600" },
+            ],
+            Developer:[
+                {    name:"Washington Omondi",Email:"washingdi@gmail.com", image:"images/Washington.jpg"},
+                {    name:"Washington Omondi",Email:"washingdi@gmail.com", image:"images/Washington.jpg"},
+                {    name:"Washington Omondi",Email:"washingdi@gmail.com", image:"images/Washington.jpg"},
+                {    name:"Washington Omondi",Email:"washingdi@gmail.com", image:"images/Washington.jpg"},
+                {    name:"Washington Omondi",Email:"washingdi@gmail.com", image:"images/Washington.jpg"},
             ]
         }
     }
@@ -51,15 +61,8 @@ export class Landing extends Component {
                 <div style={{ fontWeight: "900", fontSize: "50px", color: "#0086c3" }}>Brands</div>
 
                 <img src="https://www.top10onlinebuy.com/wp-content/uploads/2019/02/top-10-shoe-brands.jpg" alt="avator" style={{ width: "80%" }} />
+                <div style={{ fontWeight: "700", fontSize: "25px", color: "" }}>Developers</div>
 
-                <div style={{ backgroundColor: "black", color: "white" }}>
-                    <h3>Developers</h3>
-                    <div>Washington omondi</div>
-                    <div>Kerry philip</div>
-                    <div>Brian devid </div>
-                    <div>Duncun Kiprotich</div>
-                    <div>Peter Karanja</div>
-                </div>
             </div >
         )
     }

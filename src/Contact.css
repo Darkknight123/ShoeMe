@@ -1,0 +1,25 @@
+.Contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+     margin-bottom: 50px;
+     width: 100%;
+     text-align:center ;
+     box-shadow: 0px 0px 15px -5px;
+    transition: 0.5s;
+    animation: ease-in-out;
+
+}
+.Contact-container:hover{
+    transform:scale(1,1);
+    box-shadow: 0px 0px 15px -5px;
+}
+.image-container img{
+    width: 300px;
+    height: 200px;
+
+}
+.Contact-content{
+    margin: 1rem;
+    margin-top: 0.5rem;
+}

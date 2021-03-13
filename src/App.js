@@ -2,6 +2,10 @@
 import './App.css';
 import Header from './Header/Header';
 import Landing from './Landing/Landing';
+import Contact from './Contact';
+
+
+
 
 function App() {
   return (
@@ -10,6 +14,8 @@ function App() {
      {/* Main screen renders && Should use router */}
      <Landing/>
      {/*Footer components */}
+     <Contact name=""/>
+   
     </div>
   );
 }
