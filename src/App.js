@@ -2,7 +2,7 @@
 import './App.css';
 import Header from './Header/Header';
 import Landing from './Landing/Landing';
-import Contact from './Contact';
+import Contact from './Contact/Contact';
 
 
 
@@ -14,7 +14,7 @@ function App() {
      {/* Main screen renders && Should use router */}
      <Landing/>
      {/*Footer components */}
-     <Contact name=""/>
+     <Contact/>
    
     </div>
   );
