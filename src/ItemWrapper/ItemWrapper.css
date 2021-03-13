@@ -1,0 +1,17 @@
+.item-wrapper{
+    width:15%;
+    border-radius:5px;
+    box-shadow:3px 3px 2px grey;
+    padding:5px;
+    text-align:left;
+    float:left;
+    margin:20px;
+    background:white
+}
+
+@media only screen and (max-width:480px) {
+.item-wrapper{
+    width: 40%;
+    margin: 5px;
+}
+}

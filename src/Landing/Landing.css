@@ -1,0 +1,9 @@
+/* .landing{} */
+.slides{
+    display: flex;
+     flex-wrap: wrap;
+     justify-content:center;
+      margin-bottom: 50px;
+      width: 100%;
+      text-align:center 
+}
