@@ -30,7 +30,7 @@ export class Header extends Component {
                         <i id="sicon" className="fas fa-search" onClick={this.showSearch}></i></span>
                     <span ><i className="fas fa-home" ></i></span>
                     <span> <i className="fas fa-user"></i></span>
-                    <span><i className="fas fa-bars"></i></span>
+                    <span><i className="fas fa-shopping-cart"></i></span>
                 </div>
             </div>
         )

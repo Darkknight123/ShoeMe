@@ -7,3 +7,18 @@
       width: 100%;
       text-align:center 
 }
+.footer{
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+.contributors{
+        display: flex;
+         flex-wrap: wrap;
+         justify-content:center;
+          margin-bottom: 30px;
+          width: 100%;
+          text-align:center ;
+          background-color: transparent;
+          margin: 20px;
+}

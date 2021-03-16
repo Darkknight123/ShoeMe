@@ -1,12 +1,5 @@
 .contact-container{
-    width:50%;
-    border-radius:5px;
-    box-shadow:3px 3px 2px grey;
-    padding:5px;
-    text-align:left;
-    float:left;
-    margin:10px;
-    background:white
+    margin:10px 20px;
 }
 
 @media only screen and (max-width:480px) {

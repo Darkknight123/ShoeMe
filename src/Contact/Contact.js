@@ -18,8 +18,8 @@ export class Contact extends Component {
 render() {
    const{name,Email,Phonenumber,image}=this.state
    return (
-       <div className="Contact-container" style={{}}>
-           <img src={image} alt="avator" style={{maxWidth:"100%",borderRadius:"5px"}}/>
+       <div className="contact-container">
+           <img src={image} alt="avator" style={{maxWidth:"50px",maxHeight:"50px",borderRadius:"50%"}}/>
            <div>{name}</div>
            <div>{Email}</div>
            <div>{Phonenumber}</div>
