@@ -35,15 +35,16 @@ thead{
 thead>tr{
     background-color: azure;
 }
-tr{
-    padding: 5px;
-}
+
 tr:nth-child(even){
     background-color: azure;
 }
 td{
     text-align: center;
     padding: 5px;
+}
+.image-thumb{
+    max-width: 100px;
 }
 
 @media only screen and (max-width:600px){

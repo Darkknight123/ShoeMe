@@ -20,7 +20,7 @@ class Cart extends Component {
                     </thead>
                     <tbody>
                         <tr>
-                            <td><img src="" alt="avator" /></td><td>Timberlands Ksh 5500</td><td>2</td>
+                            <td><img className="image-thumb" src="shoes/one.jpg" alt="avator" /></td><td>Timberlands Ksh 5500</td><td>2</td>
                             <td>
                                 <button>+</button>
                                 <button>-</button>
