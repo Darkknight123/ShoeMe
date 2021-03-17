@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from '@reach/router'
 import "./Header.css"
 
 export class Header extends Component {
@@ -28,9 +29,15 @@ export class Header extends Component {
                 <div className="section_two">
                     <span>
                         <i id="sicon" className="fas fa-search" onClick={this.showSearch}></i></span>
-                    <span ><i className="fas fa-home" ></i></span>
-                    <span> <i className="fas fa-user"></i></span>
-                    <span><i className="fas fa-shopping-cart"></i></span>
+                    <Link to="/">
+                        <span ><i className="fas fa-home" ></i></span>
+                    </Link>
+                    <Link to="/user">
+                        <span> <i className="fas fa-user"></i></span>
+                    </Link>
+                    <Link to="/cart">
+                        <span><i className="fas fa-shopping-cart"></i></span>
+                    </Link>
                 </div>
             </div>
         )

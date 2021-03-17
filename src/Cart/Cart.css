@@ -1,0 +1,53 @@
+.wrapper{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.checkout{
+    width: 20%;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+.checkout>div{
+    height: 50px;
+    width: 100%;
+    text-align: left;
+}
+.checkout>div>button{
+    width: 40%;
+    height: 50px;
+}
+.checkout-button-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+table{
+    width: 60%;
+    margin: 20px;
+}
+thead{
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+}
+thead>tr{
+    background-color: azure;
+}
+tr{
+    padding: 5px;
+}
+tr:nth-child(even){
+    background-color: azure;
+}
+td{
+    text-align: center;
+    padding: 5px;
+}
+
+@media only screen and (max-width:600px){
+    table{
+        width: 90%;
+    }
+}

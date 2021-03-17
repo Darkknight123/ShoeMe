@@ -1,0 +1,27 @@
+.input-wrapper{
+    width: 400px;;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    margin: 10px auto;
+}
+.input-wrapper>label{
+    font-weight: bold;
+    text-transform: initial;
+}
+.input-wrapper>input{
+    font-size: 18px;
+}
+.input-wrapper button{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+.input-wrapper > button{
+    width: 80%;
+    height: 50px;
+    margin: 20px auto;
+}
+.user{
+    text-align: center;
+}

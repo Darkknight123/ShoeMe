@@ -1,6 +1,9 @@
 .Header{
     display: flex;
-    background-color:transparent;
+    background-color:white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
     height: 10vh;
     margin: 0px 0px 0px 0px;
     justify-content: space-between;
