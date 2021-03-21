@@ -1,5 +1,4 @@
 import React from "react";
-import loginImage from '../images/loginImage'
 import './User.css'
 
 
@@ -14,9 +13,7 @@ export class User extends React.Component{
         return <div className="base-container">
             <div className="header">Login</div>
             <div className="content">
-                < div className="image">
-                    <img src={images/loginImage}/>
-                </div>
+             
                 <div className="form">
                     <div className="form-group">
                         <h2 htmlFor="UserName">UserName</h2>
