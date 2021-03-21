@@ -1,9 +1,8 @@
 import React from "react";
-import loginImage from '../images/loginImage'
-import './User.css'
+import loginImage from '../images/loginImage.png'
 
 
-export class User extends React.Component{
+export class login extends React.Component{
 
 
     constructor(props){
@@ -19,12 +18,12 @@ export class User extends React.Component{
                 </div>
                 <div className="form">
                     <div className="form-group">
-                        <h2 htmlFor="UserName">UserName</h2>
+                        <Label htmlFor="UserName">UserName</Label>
                         <input type="text" name="username" placeholder="Username"></input>
                       
                     </div>
                     <div className="form-group">
-                        <h2 htmlFor="UserName">Password</h2>
+                        <Label htmlFor="UserName">Password</Label>
                         <input type="password" name="password" placeholder="password"></input>
                       
                     </div>
@@ -38,4 +37,3 @@ export class User extends React.Component{
         </div>
     }
 }
-export default User

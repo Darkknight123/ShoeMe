@@ -1,27 +1,54 @@
-.input-wrapper{
-    width: 400px;;
+.base-container{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    justify-self: center;
-    margin: 10px auto;
+    flex-direction: column;
+    align-items: center;
 }
-.input-wrapper>label{
-    font-weight: bold;
-    text-transform: initial;
+.header{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+
 }
-.input-wrapper>input{
-    font-size: 18px;
+.content{
+    display: flex;
+    flex-direction: column;
 }
-.input-wrapper button{
-    display: block;
-    text-align: center;
-    margin-top: 30px;
+.content.image{
+    width: 21px;
 }
-.input-wrapper > button{
-    width: 80%;
-    height: 50px;
-    margin: 20px auto;
-}
-.user{
-    text-align: center;
-}
+.content.image img{
+      width: 100%;
+      height: 100%;
+      
+  }
+  .form{
+      margin-top: 2em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .form-group{
+      display: flex;
+      flex-direction: center;
+      align-items: flex-start;
+      width: fit-content;
+  }
+  h2{
+      font-size: 20px;
+  }
+  input{
+      margin-top: 6px;
+      min-width: 18em;
+      height: 37px;
+      padding: 6px;
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #f3f3f35b;
+      border: 0;
+      border-radius: 4px;
+      margin-bottom: 31px;
+      transition: all 250ms ease-in-out;
+ }
+  &:focus{
+      outline:none;
+      box-shadow:0px 6px 12px 0.8px #0e81ce96; 
+  } 
