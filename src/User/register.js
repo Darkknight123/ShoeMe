@@ -1,5 +1,5 @@
 import React from "react";
-import loginImage from '../images/loginImage.png'
+import './User.css'
 
 
 export class Register extends React.Component{
@@ -9,25 +9,23 @@ export class Register extends React.Component{
         super(props);
     }
     render() {
-        return( <div className="base-container">
+        return( <div className="base-container" ref={this.props.containerRef}>
         <div className="header">Register</div>
         <div className="content">
-            < div className="image">
-                <img src={images/loginImage}/>
-            </div>
+
             <div className="form">
                 <div className="form-group">
-                    <Label htmlFor="UserName">UserName</Label>
+                    <h2 htmlFor="UserName">UserName</h2>
                     <input type="text" name="username" placeholder="Username"></input>
                   
                 </div>
                 <div className="form-group">
-                    <Label htmlFor="UserName">Email</Label>
+                    <h1 htmlFor="UserName">Email</h1>
                     <input type="email" name="email" placeholder="example@gmail.com"></input>
                   
                 </div>
                 <div className="form-group">
-                    <Label htmlFor="UserName">Password</Label>
+                    <h2 htmlFor="UserName">Password</h2>
                     <input type="password" name="password" placeholder="password"></input>
                   
                 </div>

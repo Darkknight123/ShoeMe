@@ -10,7 +10,7 @@ export class User extends React.Component{
     }
       
       render() {
-        return <div className="base-container">
+        return <div className="base-container" ref={this.props.containerRef}>
             <div className="header">Login</div>
             <div className="content">
              

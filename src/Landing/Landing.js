@@ -42,9 +42,12 @@ export class Landing extends Component {
                 { name: "Pete", image: "developers/pete.jpeg" }
             ]
         }
+    
     }
+  
 
     render() {
+        
         return (
             <div className="landing">
                 <Slider />
@@ -72,8 +75,7 @@ export class Landing extends Component {
 
                     <div className="contributors">
                         {this.state.Developer.map((dev, index) => (<Contact key={index} name={dev.name} price={dev.price} color={dev.Phonenumber} image={dev.image} />))}
-                    </div>
-
+                    </div> 
                     <div className="owners">
                         All rights Reserved <br />
                         ShoeMe<br />
@@ -86,5 +88,7 @@ export class Landing extends Component {
         )
     }
 }
+
+
 
 export default Landing
